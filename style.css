@@ -28,6 +28,7 @@ button{
     border-radius: 40px;
     width: 150px;
     height: 45px;
+    border: none;
 }
 
 h1{
@@ -186,7 +187,7 @@ p{
 
     .nav,
     footer{
-        margin: 22px;
+        margin: auto 100px;
     }
 
     .hero{
@@ -233,30 +234,36 @@ p{
 @media screen and (min-width: 1200px) {
     .flex{
         display: grid;
-        grid-template: repeat(2,350px)/repeat(3,410px);
+        grid-template: repeat(2,350px)/repeat(3,380px);
         justify-content: center;
         margin: 22px;
-        gap:32px 16px;
+        gap:38px 16px;
+        margin-bottom: 62px;
    
     }
 
     .hero{
         align-content: center;
         justify-content: center;
+        margin-top: -64px;
         
 
     }
 
     img{
-    
-        padding-left: 102px ;
+        padding-left: 128px ;
     }
 
+   
    
     h1{
         font-size: 4.5rem;
         margin-bottom: 30px;
 
+    }
+
+    p{
+        padding-bottom: 24px;
     }
 
     .tagline{
@@ -266,10 +273,18 @@ p{
         margin-bottom: 18px;
     }
 
-    .nav,
-    footer{
+    button{
         
+        font-size:2rem;
+        padding: 5px ;
+        border-radius: 40px;
+        width: 210px;
+        height: 60px;
+        border: none;
+
     }
+
+    
 
     
 
