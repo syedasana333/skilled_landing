@@ -56,6 +56,7 @@ h1{
     font-weight: 700;
     height: fit-content;
     padding-top: 8px;
+    color: #0E173E;
 }
 
 .skill2{
@@ -110,6 +111,7 @@ img{
     flex-direction: column;
     align-items: center;
     margin-bottom: 8%;
+    color: #0E173E;
 }
 
 i{
